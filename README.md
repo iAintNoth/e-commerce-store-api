@@ -6,6 +6,8 @@ Welcome to the Simple Store repository! This project is an example of an API for
 
 The Simple Store is an API that allows users to view and purchase products, manage their shopping cart, place orders, and view order history. The application also supports features such as user authentication, product category management, advanced product search, order confirmation email sending, and internationalization.
 
+*This API is not complety finished, it's a demonstration project which can be used as a starting point with the right modifications*
+
 ## Key Features
 
 - **Product Display**: Users can view all available products in the store.
@@ -33,4 +35,30 @@ The Simple Store is an API that allows users to view and purchase products, mana
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/online-store.git
+git clone https://github.com/username/e-commerce-store-api.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd e-commerce-store-api
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the backend server (make sure MongoDB is running):
+
+```bash
+npm start
+```
+
+The application will be accessible at http://localhost:3000 in your browser.
+
+License
+This project is released under the MIT License.
+
+
